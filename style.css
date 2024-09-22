@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align:left;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    background-color: rgb(155, 182, 0);
+    width: 50vw;
+    margin: auto;
+    height: 100vh;
+    border-radius: 8px;
+    box-shadow: 0 24px 26px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4c4c4c;
+    font-size: 25px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon-area {
+    font-size: 20px;
+    height: 120px;
+    width: 120px;
+    border: dashed black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#game-status {
+    font-size: 20px;
+    width: 48.5vw;
+    text-align: center;
+    height: 8vh;
+    font-weight: bold;
+    background-color: #f4b042;
+    padding: 10px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.choice-btn {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.0em;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.choice-btn img {
+    width: 50px;
+    height: 50px;
+}
